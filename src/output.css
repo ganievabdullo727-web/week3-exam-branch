@@ -185,6 +185,9 @@
   .z-\[-1\] {
     z-index: -1;
   }
+  .m-0 {
+    margin: calc(var(--spacing) * 0);
+  }
   .m-\[50px\] {
     margin: 50px;
   }
@@ -383,6 +386,9 @@
   .w-\[60\] {
     width: 60;
   }
+  .w-\[65\%\] {
+    width: 65%;
+  }
   .w-\[70\%\] {
     width: 70%;
   }
@@ -439,6 +445,12 @@
   }
   .justify-around {
     justify-content: space-around;
+  }
+  .justify-baseline {
+    justify-content: baseline;
+  }
+  .justify-between {
+    justify-content: space-between;
   }
   .gap-\[5\] {
     gap: 5;
@@ -531,6 +543,9 @@
   }
   .bg-\[\#FAFAFA\] {
     background-color: #FAFAFA;
+  }
+  .bg-amber-300 {
+    background-color: var(--color-amber-300);
   }
   .p-\[5px\] {
     padding: 5px;
