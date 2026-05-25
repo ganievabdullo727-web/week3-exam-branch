@@ -201,6 +201,9 @@
   .mt-\[20px\] {
     margin-top: 20px;
   }
+  .mt-\[20pxx\] {
+    margin-top: 20pxx;
+  }
   .mt-\[25px\] {
     margin-top: 25px;
   }
@@ -245,6 +248,9 @@
   }
   .h-\[35px\] {
     height: 35px;
+  }
+  .h-\[40px\] {
+    height: 40px;
   }
   .h-\[45\] {
     height: 45;
@@ -308,6 +314,15 @@
   }
   .h-\[1000px\] {
     height: 1000px;
+  }
+  .h-\[2000px\] {
+    height: 2000px;
+  }
+  .h-\[2100px\] {
+    height: 2100px;
+  }
+  .h-\[2300px\] {
+    height: 2300px;
   }
   .w-6 {
     width: calc(var(--spacing) * 6);
@@ -405,6 +420,9 @@
   .w-\[90\%\] {
     width: 90%;
   }
+  .w-\[95\%\] {
+    width: 95%;
+  }
   .w-\[100\%\] {
     width: 100%;
   }
@@ -441,6 +459,9 @@
   .flex-wrap {
     flex-wrap: wrap;
   }
+  .items-baseline {
+    align-items: baseline;
+  }
   .items-center {
     align-items: center;
   }
@@ -459,11 +480,20 @@
   .gap-\[5px\] {
     gap: 5px;
   }
+  .gap-\[7px\] {
+    gap: 7px;
+  }
+  .gap-\[7x\] {
+    gap: 7x;
+  }
   .gap-\[8px\] {
     gap: 8px;
   }
   .gap-\[10px\] {
     gap: 10px;
+  }
+  .gap-\[10x\] {
+    gap: 10x;
   }
   .gap-\[20px\] {
     gap: 20px;
@@ -473,6 +503,9 @@
   }
   .gap-\[50px\] {
     gap: 50px;
+  }
+  .gap-\[710x\] {
+    gap: 710x;
   }
   .rounded {
     border-radius: 0.25rem;
@@ -551,6 +584,9 @@
   .bg-amber-300 {
     background-color: var(--color-amber-300);
   }
+  .p-15 {
+    padding: calc(var(--spacing) * 15);
+  }
   .p-\[5px\] {
     padding: 5px;
   }
@@ -592,6 +628,12 @@
   }
   .pt-\[20\%\] {
     padding-top: 20%;
+  }
+  .pt-\[20px\] {
+    padding-top: 20px;
+  }
+  .pt-\[20pxx\] {
+    padding-top: 20pxx;
   }
   .pt-\[25px\] {
     padding-top: 25px;
@@ -644,6 +686,9 @@
   }
   .text-\[grey\] {
     color: grey;
+  }
+  .text-\[whit\] {
+    color: whit;
   }
   .text-\[white\] {
     color: white;
@@ -711,6 +756,11 @@
   .lg\:mt-\[100px\] {
     @media (width >= 64rem) {
       margin-top: 100px;
+    }
+  }
+  .lg\:mt-\[105px\] {
+    @media (width >= 64rem) {
+      margin-top: 105px;
     }
   }
   .lg\:ml-\[\%\] {
