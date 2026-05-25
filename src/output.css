@@ -324,11 +324,38 @@
   .h-\[2300px\] {
     height: 2300px;
   }
+  .h-\[3000\] {
+    height: 3000;
+  }
+  .h-\[3000px\] {
+    height: 3000px;
+  }
+  .h-\[3500px\] {
+    height: 3500px;
+  }
+  .h-\[3600px\] {
+    height: 3600px;
+  }
+  .h-\[3700px\] {
+    height: 3700px;
+  }
+  .h-\[4000px\] {
+    height: 4000px;
+  }
+  .h-\[5000px\] {
+    height: 5000px;
+  }
+  .h-\[30000\] {
+    height: 30000;
+  }
   .w-6 {
     width: calc(var(--spacing) * 6);
   }
   .w-70 {
     width: calc(var(--spacing) * 70);
+  }
+  .w-75 {
+    width: calc(var(--spacing) * 75);
   }
   .w-90 {
     width: calc(var(--spacing) * 90);
@@ -422,6 +449,9 @@
   }
   .w-\[95\%\] {
     width: 95%;
+  }
+  .w-\[95\] {
+    width: 95;
   }
   .w-\[100\%\] {
     width: 100%;
@@ -843,6 +873,11 @@
       height: 1000px;
     }
   }
+  .lg\:h-\[2100px\] {
+    @media (width >= 64rem) {
+      height: 2100px;
+    }
+  }
   .lg\:w-\[15\%\] {
     @media (width >= 64rem) {
       width: 15%;
@@ -878,6 +913,11 @@
       width: 48%;
     }
   }
+  .lg\:w-\[50\%\] {
+    @media (width >= 64rem) {
+      width: 50%;
+    }
+  }
   .lg\:w-\[58\%\] {
     @media (width >= 64rem) {
       width: 58%;
@@ -886,6 +926,11 @@
   .lg\:w-\[60\%\] {
     @media (width >= 64rem) {
       width: 60%;
+    }
+  }
+  .lg\:w-\[70\%\] {
+    @media (width >= 64rem) {
+      width: 70%;
     }
   }
   .lg\:w-\[150px\] {
